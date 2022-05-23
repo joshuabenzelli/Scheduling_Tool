@@ -1,3 +1,6 @@
+// This js file is specifically being used for time to make sure that all colors
+// change when they are supposed to based on the hour in the day.
+
 var currentDay = $('#currentDay');
 var seven = $('.seven');
 var eight = $('.eight');
@@ -12,6 +15,8 @@ var four = $('.four');
 var five = $('.five');
 var six = $('.six');
 var time = '';
+
+// This is one long function to change the colors based on the hour of the day.
 
 function current(){
     setInterval(function () {
